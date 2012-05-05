@@ -1,3 +1,14 @@
+/*
+Theme Name: Light
+Theme URI: http://simon.bennett.im
+Description: Simon Bennett's Wordpress theme for this portfolio and blog
+Author: Simon Bennett
+Author URI: http://simon.bennett.im
+Version: 1.0
+Copyright: Simon Bennett
+
+General comments (optional).
+*/
 body { background-color:#EEEEE6; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; font-size:12px; overflow:scroll;}
 #container {width:500px; margin:0 auto; margin-top:40px ;}
 header {}
@@ -12,7 +23,6 @@ p{ font-size:2.4em; line-height:1.5em; font-family: 'Didact Gothic',Arial, Helve
 p strong {color:#66BA3B; font-weight:100; } 
 p em { color:#DC6228; font-style:normal}
 #about {margin-top: 4em; margin-bottom:2.5em;} 
-
 span {  color:#2BAEAB;}
 #findme p {font-size:1.6em;} 
 #findme a.email{color:#66BA3B;} 
@@ -21,4 +31,6 @@ span {  color:#2BAEAB;}
 #blog .post p{text-align:left; font-size:1.3em;}
 #blog h2 { color:#DC6228; font-size:2.4em; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; text-align:center; font-weight:normal;} 
 .post{ margin-top:2em;}
-.post h3 a { color:#DC6228;} 
+.post h3 a { color:#DC6228;}
+.post #meta {	margin-bottom:10px;}
+.post img, #porfolio img{height:auto;-moz-border-radius: 3px;border-radius: 3px; }

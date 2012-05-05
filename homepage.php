@@ -26,7 +26,7 @@ Template Name: homepage
         </div>
         <div class="item"><a href="https://github.com/wgas" target="_blank" > <img src="<?php bloginfo('template_directory'); ?>/images/github.jpg" alt="Git Hub, Socail Coding"></a>
           <div class="carousel-caption">
-            <h4>GitHub</h4>
+            <h4>GitHub</h4> 
             <p>Open source project work</p>
           </div>
         </div>
@@ -37,7 +37,7 @@ Template Name: homepage
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a> <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a> </div>
+     </div>
   </div>
   <div id="findme">
     <p> Follow me <a href="http://twitter.com/MrSimonBennett">@MrSimonBennett</a></p>
