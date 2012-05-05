@@ -4,17 +4,7 @@
 Template Name: homepage
 */?>
 <?php get_header();?>
-<div id="container">
-  <header>
-    <h2>Simon Bennett</h2>
-    <h1>Web Developer</h1>
-    <a href="/" ><img alt="Web Development Simon Bennett" src="<?php bloginfo('template_directory'); ?>/images/logo.jpg"></a>
-    <nav>
-      <ul>
-        <li> <a href="/blog">Blog</a> </li>
-      </ul>
-    </nav>
-  </header>
+
   <div id="about">
     <p>I’m a web <strong>developer</strong>, creating functional <span>websites</span> and managing <em>servers</em>.
     <p> 
@@ -53,6 +43,5 @@ Template Name: homepage
     <p> Follow me <a href="http://twitter.com/MrSimonBennett">@MrSimonBennett</a></p>
     <p>Email me <a class="email" href="mailto:hello@bennett.im" >hello@bennett.im</a> </p>
   </div>
-</div>
-</body>
-</html>
+
+<?php get_footer()?>
