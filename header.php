@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
+<title><?php if (is_home()){  bloginfo('description'); } else if (is_page('homepage')){ echo "Web Developer"; } else{ wp_title('');};?> | <?php bloginfo('name'); ?> </title>
 <meta name="author" content="Simon Bennett">
 <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
