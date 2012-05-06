@@ -15,6 +15,7 @@
 <?php if(is_page('homepage')):?>
 <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap-carousel.js"></script>
+<script language="javascript" src="<?php bloginfo('template_directory'); ?>/js/mail.js"></script>
 <script>
 
 $(function(){

@@ -41,7 +41,7 @@ Template Name: homepage
   </div>
   <div id="findme">
     <p> Follow me <a href="http://twitter.com/MrSimonBennett">@MrSimonBennett</a></p>
-    <p>Email me <a class="email" href="mailto:hello@bennett.im" >hello@bennett.im</a> </p>
+    <p>Email me <script>mail2("hello","bennett",0,"","hello@bennett.im")</script> </p>
   </div>
 
 <?php get_footer()?>
