@@ -28,9 +28,11 @@ span {  color:#2BAEAB;}
 #findme a.email{color:#66BA3B;} 
 /* Blog Page   */
 #blog {margin-top: 4em; margin-bottom:2.5em;} 
-#blog .post p{text-align:left; font-size:1.3em;}
-#blog h2 { color:#DC6228; font-size:2.4em; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; text-align:center; font-weight:normal;} 
+#blog .post p{ font-size:1.3em; margin-bottom:20px; text-align:justify;}
+#blog h2 { color:#DC6228; font-size:2.6em; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; text-align:center; font-weight:normal;} 
 .post{ margin-top:2em;}
+.post h3 { font-size:2.5em; margin-bottom:5px; font-weight:normal; }
 .post h3 a { color:#DC6228;}
 .post #meta {	margin-bottom:10px;}
 .post img, #porfolio img{height:auto;-moz-border-radius: 3px;border-radius: 3px; }
+hr { border-top-color:#DC6228}
