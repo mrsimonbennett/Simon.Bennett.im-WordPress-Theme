@@ -6,7 +6,7 @@ Template Name: homepage
 <?php get_header();?>
 
   <div id="about">
-    <p>I’m a web <strong>developer</strong>, creating functional <span>websites</span> and managing <em>servers</em>.
+    <p>My name is <em>Simon Bennett</em>,<br> I’m a web <strong>developer</strong>, creating functional <span>websites</span> and managing <em>servers</em>.
     <p> 
   </div>
   <div id="porfolio">

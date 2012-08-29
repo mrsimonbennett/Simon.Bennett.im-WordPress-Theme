@@ -15,8 +15,7 @@ header {}
 header h1{ text-indent:-9999px; }
 header h2{ text-indent:-9999px;}
 header img { margin-top:-64px}
-header nav {float:right;
-margin-top:-10px;}
+header nav {float:right;margin-top:-10px;}
 header nav ul { list-style:none;}
 header nav ul li { display: inline; font-size:1.4em; padding:0 10px;}
 p{ font-size:2.4em; line-height:1.5em; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; text-align:center}
@@ -36,5 +35,3 @@ span {  color:#2BAEAB;}
 .post #meta {	margin-bottom:10px;}
 .post img, #porfolio img{height:auto;-moz-border-radius: 3px;border-radius: 3px; }
 hr { border-top-color:#DC6228}
-
-.post li {font-size:1.5em; margin-bottom:9px;}
