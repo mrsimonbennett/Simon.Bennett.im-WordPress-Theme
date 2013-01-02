@@ -24,6 +24,12 @@ Template Name: homepage
             <p>WordPress blog for wp fans</p>
           </div>
         </div>
+        <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/servers.jpg" alt="Server Managerment">
+          <div class="carousel-caption">
+            <h4>Server Management</h4> 
+            <p>Server Management - Debian</p>
+          </div>
+        </div>
         <div class="item"><a href="https://github.com/wgas" target="_blank" > <img src="<?php bloginfo('template_directory'); ?>/images/github.jpg" alt="Git Hub, Socail Coding"></a>
           <div class="carousel-caption">
             <h4>GitHub</h4> 
@@ -33,14 +39,15 @@ Template Name: homepage
         <div class="item"> <img src="<?php bloginfo('template_directory'); ?>/images/xboxworkshop.jpg" alt="">
           <div class="carousel-caption">
             <h4>Xbox Workshop</h4>
-            <p>Online managment system</p>
+            <p>Online management system</p>
           </div>
         </div>
       </div>
      </div>
   </div>
   <div id="findme">
-    <p> Follow me <a href="http://twitter.com/MrSimonBennett">@MrSimonBennett</a></p>
+    <p>Follow me on Twitter <a href="https://twitter.com/MrSimonBennett">@MrSimonBennett</a></p>
+     <p>Follow me on App.net <a href="https://alpha.app.net/mrsimonbennett">@MrSimonBennett</a></p>
     <p>Email me <script>mail2("hello","bennett",0,"","hello@bennett.im")</script> </p>
   </div>
 
