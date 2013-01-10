@@ -38,3 +38,6 @@ span {  color:#2BAEAB;}
 hr { border-top-color:#DC6228}
 
 .post li {font-size:1.5em; margin-bottom:9px;}
+.carousel-control{line-height: 23px;}
+.carousel-control.left{left: 3px;}
+.carousel-control.right{right: 3px;}
