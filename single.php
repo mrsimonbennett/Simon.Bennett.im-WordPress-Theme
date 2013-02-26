@@ -8,7 +8,13 @@
     <div id="meta" >Posted: <?php the_date(); ?></div>
       
       <?php the_content(); ?>  
+      <!--<?php trackback_rdf(); ?>-->
       
+    </div>
+    <div id="commentblock">
+    <?php DisplayPingTrackbacks(); ?>
+        <?php comments_template(); ?>
+        
     </div>
       <?php endwhile; endif; ?>  
     

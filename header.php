@@ -30,6 +30,7 @@ $(function(){
 
 </script>
 <?php endif;?>
+<?php wp_head();?>
 </head>
 <body>
 <div id="container">

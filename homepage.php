@@ -7,7 +7,9 @@ Template Name: homepage
 
   <div id="about">
     <p>My name is <em>Simon Bennett</em>,<br> I’m a web <strong>developer</strong>, creating functional <span>websites</span> and managing <em>servers</em>.
-    <p> 
+    <p class="small">
+	    I am based between Swansea and Norwich (UK) and currently available for hire. 
+    </p>
   </div>
   <div id="porfolio">
     <div id="myCarousel" class="carousel slide">
