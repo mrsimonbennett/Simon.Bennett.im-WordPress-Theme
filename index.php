@@ -2,12 +2,15 @@
 
   <div id="blog">
     <p>Simon Bennett's <a class="title" href="/blog">Blog</a>.
+    <?php if ( is_home() ) { query_posts( 'cat=-18' ); } ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
+   
     <div class="post">
       <h3><a href="<?php the_permalink(); ?>  " ><?php the_title(); ?></a></h3>
      <hr />
       <?php the_content(); ?>  
     </div>
+    
     <?php endwhile; endif; ?>  
     <?php
     global $wp_query;

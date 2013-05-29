@@ -38,6 +38,12 @@ span {  color:#2BAEAB;}
 .post h4 { font-size:1.5em; color:#2BAEAB;margin-bottom:0.8em;}
 .post #meta {	margin-bottom:10px;}
 .post img, #porfolio img{height:auto;-moz-border-radius: 3px;border-radius: 3px; }
+.aligncenter{
+	
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 hr { border-top-color:#DC6228}
 
 .post li {font-size:1.28em; margin-bottom:9px;list-style-type:circle;}

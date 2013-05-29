@@ -22,7 +22,7 @@ $(function(){
 
    $('#myCarousel').carousel({
 
-	    interval:2500
+	    interval:4000
 
    });
 
@@ -41,6 +41,9 @@ $(function(){
     <nav>
       <ul>
         <li> <a href="/blog">Blog</a> </li>
+         <li> <a href="/available-stuff-free-donation-borrow/">Stuff</a> </li>
+         
+         <li> <a href="/blog/category/random-photos/">Photos</a> </li>
       </ul>
     </nav>
   </header>

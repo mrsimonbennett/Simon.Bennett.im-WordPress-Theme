@@ -38,10 +38,28 @@ Template Name: homepage
             <p>Open source project work</p>
           </div>
         </div>
-        <div class="item"> <img src="<?php bloginfo('template_directory'); ?>/images/xboxworkshop.jpg" alt="">
+        <div class="item"> <img src="<?php bloginfo('template_directory'); ?>/images/xboxworkshop.jpg" alt="Xbox WorkShop">
           <div class="carousel-caption">
             <h4>Xbox Workshop</h4>
             <p>Online management system</p>
+          </div>
+        </div>
+        <div class="item"><a href="https://abannan.com/" target="_blank" > <img src="<?php bloginfo('template_directory'); ?>/images/abannan.jpg" alt="Abannan App Developers"></a>
+          <div class="carousel-caption">
+            <h4></h4>
+            <p>Data Mining System - PHP/MySQL</p>
+          </div>
+        </div>
+        <div class="item"><a href="http://wjbreachandsons.co.uk/" target="_blank" > <img src="<?php bloginfo('template_directory'); ?>/images/wjbreachandsons.jpg" alt="WJ Breach and Sons"></a>
+          <div class="carousel-caption">
+            <h4></h4>
+            <p>WJ Breach and Sons - Coming Soon</p>
+          </div>
+        </div>
+        <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/googleadword.jpg" alt="Google Adword Campaigns">
+          <div class="carousel-caption">
+            <h4>Google Adword Campaigns</h4>
+            <p>Advertise your Business Online</p>
           </div>
         </div>
       </div>
@@ -50,9 +68,9 @@ Template Name: homepage
      </div>
   </div>
   <div id="findme">
-    <p>Follow me on Twitter <a href="https://twitter.com/MrSimonBennett">@MrSimonBennett</a></p>
-     <p>Follow me on App.net <a href="https://alpha.app.net/mrsimonbennett">@MrSimonBennett</a></p>
-    <p>Email me <script>mail2("hello","bennett",0,"","hello@bennett.im")</script> </p>
+    <p>Follow me on Twitter <a href="https://twitter.com/MrSimonBennett" rel='me'>@MrSimonBennett</a></p>
+     <p>Follow me on App.net <a href="https://alpha.app.net/mrsimonbennett" rel='me'>@MrSimonBennett</a></p>
+    <p>Email me <script>mail2("hello","bennett",0,"")</script> </p>
   </div>
 
 <?php get_footer()?>
