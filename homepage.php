@@ -4,20 +4,26 @@
 Template Name: homepage
 */?>
 <?php get_header();?>
-
+<div class="">
   <div id="about">
-    <p>My name is <em>Simon Bennett</em>,<br> I’m a web <strong>developer</strong>, creating functional <span>websites</span> and managing <em>servers</em>.
+    <p>Hi, I'm <em>Simon Bennett</em> a web <strong>developer</strong>.
     <p class="small">
-	    I am based between Swansea and Norwich (UK) and currently available for hire. 
+	    I am based between Swansea and Norwich (UK) and currently unavailable for hire (3rd year university is busy!) . 
     </p>
   </div>
-  <div id="porfolio">
+  <div id="porfolio" class="containerhome">
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
-        <div class="item active"> <a href="http://phnorwichmotorcycles.com" target="_blank" ><img src="<?php bloginfo('template_directory'); ?>/images/phnorwich.jpg" alt="P and H Norwich Motorcycles"></a>
+        <div class="item active"> <a href="https://simon.bennett.im/p-and-h-norwich-motorcycles/" ><img src="<?php bloginfo('template_directory'); ?>/images/phnorwich.jpg" alt="P and H Norwich Motorcycles"></a>
           <div class="carousel-caption">
-            <h4>P and H Motorcylces</h4>
+            <h4>P and H Motorcycles</h4>
             <p>Norwich based motorcycle company.</p>
+          </div>
+        </div>
+         <div class="item "> <a href="http://fullrent.co.uk" ><img src="<?php bloginfo('template_directory'); ?>/images/fullrent.jpg" alt="FullRent Property Management Software"></a>
+          <div class="carousel-caption">
+            <h4>FullRent Ltd</h4>
+            <p>Property letting software.</p>
           </div>
         </div>
         <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/wordpress.jpg" alt="">
@@ -53,7 +59,7 @@ Template Name: homepage
         <div class="item"><a href="http://wjbreachandsons.co.uk/" target="_blank" > <img src="<?php bloginfo('template_directory'); ?>/images/wjbreachandsons.jpg" alt="WJ Breach and Sons"></a>
           <div class="carousel-caption">
             <h4></h4>
-            <p>WJ Breach and Sons - Coming Soon</p>
+            <p>WJ Breach and Sons</p>
           </div>
         </div>
         <div class="item"><img src="<?php bloginfo('template_directory'); ?>/images/googleadword.jpg" alt="Google Adword Campaigns">
@@ -69,8 +75,8 @@ Template Name: homepage
   </div>
   <div id="findme">
     <p>Follow me on Twitter <a href="https://twitter.com/MrSimonBennett" rel='me'>@MrSimonBennett</a></p>
-     <p>Follow me on App.net <a href="https://alpha.app.net/mrsimonbennett" rel='me'>@MrSimonBennett</a></p>
     <p>Email me <script>mail2("hello","bennett",0,"")</script> </p>
   </div>
+</div>
 
 <?php get_footer()?>

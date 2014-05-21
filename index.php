@@ -1,7 +1,33 @@
-<?php get_header();?>
+<?php get_header();
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+$args= array(
+  'cat' => 1,
+  'paged' => $paged
+);
+if(preg_match("/\/random-photos\//",$_SERVER['REQUEST_URI'])){
+  $args= array(
+  'cat' => 18,
+  'paged' => $paged
+);
+}else if(preg_match("/\/final-major-project\//",$_SERVER['REQUEST_URI']))
+{
+   $args= array(
+    'cat' => 19,
+   'paged' => $paged
+  );
+}
+query_posts($args);
+?>
 
   <div id="blog">
-    <p>Simon Bennett's <a class="title" href="/blog">Blog</a>.
+    <?php if($args['cat'] == 18):?>
+    <p><a class="title" href="/blog/category/random-photos/">Random Photos</a>
+
+    <?php elseif($args['cat'] == 19):?>
+      <p><a class="title" href="/blog/category/final-major-project/">Final Major Project</a>
+    <?php else:?>
+    <p><a class="title" href="/blog">Blog</a></p>
+<?php endif;?>
     <?php if ( is_home() ) { query_posts( 'cat=-18' ); } ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
    

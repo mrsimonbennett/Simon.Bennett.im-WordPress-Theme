@@ -9,19 +9,27 @@ Copyright: Simon Bennett
 
 General comments (optional).
 */
-body { background-color:#EEEEE6; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; font-size:12px; overflow:scroll;}
-#container {width:500px; margin:0 auto; margin-top:40px ;}
+html {
+	margin: 0;
+	padding: 0;
+}
+body { background-color:#FFFFFF; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; font-size:12px; overflow:scroll; margin: 0; padding: 0}
+.container {width:800px; margin:0 auto; margin-top:0px ;}
+.containerhome { width: 500px;  margin:0 auto; }
+.redbar {	margin-top: 20px;	height: 50px;	background-color: #FF4C4C;	width: 100%;}
 header {}
 header h1{ text-indent:-9999px; }
 header h2{ text-indent:-9999px;}
 header img { margin-top:-64px}
 header nav {float:right;
-margin-top:-10px;}
+margin-top:-15px;}
 header nav ul { list-style:none;}
-header nav ul li { display: inline; font-size:1.4em; padding:0 10px;}
+header nav ul li { display: inline; font-size:1.6em; padding:0 10px;}
+header nav ul li a { color: #464646;}
+header nav ul li a:hover, header nav ul li a.active { color:#FF4C4C; text-decoration: none;}
 p{ font-size:2.4em; line-height:1.5em; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; text-align:center}
 p strong {color:#66BA3B; font-weight:100; } 
-p em { color:#DC6228; font-style:normal}
+p em { color:#FF4C4C; font-style:normal}
 p.small{ font-size: 1.20833329em;}
 #about {margin-top: 2em; margin-bottom:2.5em;} 
 span {  color:#2BAEAB;}
@@ -29,28 +37,24 @@ span {  color:#2BAEAB;}
 #findme a.email{color:#66BA3B;} 
 /* Blog Page   */
 #blog {margin-top: 2em; margin-bottom:2.5em;} 
-#blog a.title {color:#66BA3B;}
-#blog .post p{ font-size:1.3em; margin-bottom:20px; text-align:justify;}
-#blog h2 { color:#DC6228; font-size:2.6em; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; text-align:center; font-weight:normal;} 
+#blog a.title {color:#FF4C4C;}
+#blog .post p{ font-size:1.4em; margin-bottom:20px; text-align:justify;}
+#blog h2 { color:#464646; font-size:2.6em; font-family: 'Didact Gothic',Arial, Helvetica, sans-serif !important; text-align:left; font-weight:normal;} 
 .post{ margin-top:2em;}
-.post h3 { font-size:2.5em; margin-bottom:5px; font-weight:normal; text-align: center;}
-.post h3 a { color:#DC6228; }
+.post h3 { font-size:2.5em; margin-bottom:5px; font-weight:normal; text-align: left;}
+.post h3 a { color:#464646; }
 .post h4 { font-size:1.5em; color:#2BAEAB;margin-bottom:0.8em;}
 .post #meta {	margin-bottom:10px;}
 .post img, #porfolio img{height:auto;-moz-border-radius: 3px;border-radius: 3px; }
-.aligncenter{
-	
-display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-hr { border-top-color:#DC6228}
-
+.aligncenter{	display: block;margin-left: auto;margin-right: auto;}
+.post img {	display: block;    margin-left: auto;    margin-right: auto;    border: solid #FF4C4C 4px;}
+hr { border-top-color:#FF4C4C; border-width: 2px;}
 .post li {font-size:1.28em; margin-bottom:9px;list-style-type:circle;}
 .carousel-control{line-height: 23px;}
 .carousel-control.left{left: 3px;}
 .carousel-control.right{right: 3px;}
 .well {
+	font-size: 1.2em;
 	padding: 5px;
 	border-color: #DC6228;
 	border-color: rgba(220,98,41,0.34);
@@ -58,5 +62,6 @@ hr { border-top-color:#DC6228}
 
 /* Pagination */	
 .page-numbers {
+	margin: 10px;
 	font-size: 2em;	
 }
